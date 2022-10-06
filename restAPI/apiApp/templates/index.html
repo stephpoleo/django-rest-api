@@ -1,0 +1,12 @@
+Obteniendo lista... {{message}}
+
+{%for item in items%}
+<ul>
+    <li>({{item.id}}) {{item.name}}</li>
+    <ul>
+        <li>Edad: {{item.age}}</li>
+        <li>Cumpleaños: {{item.birthday}}</li>
+    </ul>
+</ul>
+
+{%endfor%}
